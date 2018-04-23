@@ -8,6 +8,9 @@ package practice01;
 
 public class PTra01_05 {
 	public static void main(String[] args) {
+		char c;
+		c='R';
+		System.out.println(c);
 
 		// ★ char型の変数 c を宣言してください
 
