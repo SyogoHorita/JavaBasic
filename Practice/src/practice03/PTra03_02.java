@@ -18,6 +18,5 @@ public class PTra03_02 {
 		}else {
 			System.out.println("不合格です");
 		}
-
 	}
 }
