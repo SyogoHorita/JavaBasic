@@ -41,6 +41,5 @@ public class PTra03_04 {
 		}else {
 			System.out.println(num+"年はうるう年ではありません。");
 		}
-
 	}
 }

@@ -46,6 +46,5 @@ public class PTra03_08 {
 		case 3:
 			System.out.println(money-200);
 		}
-
 	}
 }
