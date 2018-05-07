@@ -27,7 +27,7 @@ public class PTra06_06 {
 			for(int n=5;n>i;n--) {
 				System.out.print("□");
 			}
-			System.out.println("");
+			System.out.println();
 		}
 	}
 }

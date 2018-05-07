@@ -41,7 +41,7 @@ public class PTra06_07 {
 				System.out.print("□");
 			}
 		}
-			System.out.println("");
+			System.out.println();
 		}
 	}
 }
