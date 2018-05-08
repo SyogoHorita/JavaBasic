@@ -23,6 +23,13 @@ public class PTra10_01 {
 	 */
 
 	public static void main(String[] args) {
+		User us;
+		us=new User();
+
+		System.out.println(us.userId);
+		System.out.println(us.userNm);
+		System.out.println(us.mail);
+		System.out.println(us.password);
 
 		// Userクラスを作成後に着手してください
 		// ★ User型の変数usを宣言してください
