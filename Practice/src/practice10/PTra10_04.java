@@ -16,6 +16,9 @@ public class PTra10_04 {
 
 		// ★ User型の変数が3つ入る配列usersを宣言・確保してください
 		User[] users=new User[3];
+		users[0]=new User();
+		users[1]=new User();
+		users[2]=new User();
 
 		// ★ java.util.Scannerクラスをインスタンス化し、変数scannerに代入してください
 		java.util.Scanner scanner = new java.util.Scanner(System.in);
@@ -34,17 +37,27 @@ public class PTra10_04 {
 
 			// ★ 配列にした値を、users[カウント]の各フィールドに代入してください
 			// ★ ユーザIDに該当する値が数値でなかった場合は、エラーでプログラムが止まっても良いです
-		users[0].userId=Integer.parseInt(list[0]);
-		users[1].userNm=list[1];
-		users[2].mail=list[2];
-		users[3].password=list[3];
+		users[i].userId=Integer.parseInt(list[0]);
+		users[i].userNm=list[1];
+		users[i].mail=list[2];
+		users[i].password=list[3];
 		}
 		//----------- ループ end
 
 		// ★ usersに格納されている全てのインスタンスの、フィールドuserId, userNm, mail, passwordを出力してください
 		System.out.println(users[0].userId);
+		System.out.println(users[0].userNm);
+		System.out.println(users[0].mail);
+		System.out.println(users[0].password);
+
+		System.out.println(users[1].userId);
 		System.out.println(users[1].userNm);
+		System.out.println(users[1].mail);
+		System.out.println(users[1].password);
+
+		System.out.println(users[2].userId);
+		System.out.println(users[2].userNm);
 		System.out.println(users[2].mail);
-		System.out.println(users[3].password);
+		System.out.println(users[2].password);
 	}
 }
