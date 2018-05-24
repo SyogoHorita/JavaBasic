@@ -9,7 +9,7 @@ package practice01;
 public class PTra01_06 {
 	public static void main(String[] args) {
 		String str;
-		str="堀田昇悟";
+		str="堀田";
 		System.out.println(str);
 
 		// ★ 文字列を格納する変数 str を宣言してください
