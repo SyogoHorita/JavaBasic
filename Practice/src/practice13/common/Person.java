@@ -16,13 +16,13 @@ public class Person {
 	public static final int BASE_NO = 1000;
 
 	/** ユーザID */
-	public int userId;
+	private int userId;
 	/** ユーザ名 */
-	public String userNm;
+	private String userNm;
 	/** メールアドレス */
-	public String mail;
+	private String mail;
 	/** パスワード */
-	public String password;
+	private String password;
 	/**
 	 * ユーザIDを取得します
 	 * @return ユーザID

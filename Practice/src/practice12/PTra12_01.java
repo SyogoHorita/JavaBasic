@@ -11,6 +11,7 @@ import practice12.common.Student;
 public class PTra12_01 {
 	public static void main(String[] args) {
 
+		
 		/*
 		 * common.Studentにアクセサを追加し、
 		 * ★ フィールドのアクセス修飾子を外部クラスからのアクセスを禁止させるようにしてください
