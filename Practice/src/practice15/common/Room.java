@@ -58,4 +58,18 @@ public class Room {
 	public void setStartDate(Date startDate) {
 		this.startDate = startDate;
 	}
+	public String[] getCurriculum() {
+		String[] array = {
+				"ビジネスマナー"
+				,"Javaプログラミング"
+				,"オブジェクト指向プログラミング"
+				,"DB基礎"
+				,"設計・テスト手法入門"
+				,"Webプログラミング"
+				,"JavaEE開発実習"
+			};
+
+		return array;
+	}
+
 }
